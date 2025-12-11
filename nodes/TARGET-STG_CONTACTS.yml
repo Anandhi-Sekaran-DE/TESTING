@@ -1,0 +1,180 @@
+fileVersion: 1
+id: 006c4667-bbe1-4dac-ae56-b3aff606712c
+name: STG_CONTACTS
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: TARGET
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e1b2b87a-b7c5-49b0-af83-1f7d040df005
+          stepCounter: 006c4667-bbe1-4dac-ae56-b3aff606712c
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: CONTACT_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f52e5c4a-dddd-44a3-9743-4d16aa915883
+                stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9968e19f-31ad-4a6d-b5b5-a9281dead594
+          stepCounter: 006c4667-bbe1-4dac-ae56-b3aff606712c
+        config: {}
+        dataType: VARCHAR(100)
+        description: ""
+        name: FIRST_NAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e8ff505c-31ea-4c91-8084-3982d28b728b
+                stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 29be2a49-ac49-439d-8b13-1c26fd81223c
+          stepCounter: 006c4667-bbe1-4dac-ae56-b3aff606712c
+        config: {}
+        dataType: VARCHAR(100)
+        description: ""
+        name: LAST_NAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9619356b-299d-4c27-935e-01a506f27b05
+                stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b3eec3d7-32fc-4654-b1c3-dbd920050f03
+          stepCounter: 006c4667-bbe1-4dac-ae56-b3aff606712c
+        config: {}
+        dataType: VARCHAR(450)
+        description: ""
+        name: ORGANISATION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ccd3cbd8-eabe-458e-954f-7ae9f8009f40
+                stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 738f5fd6-eff3-4e11-9ee7-1cc1d4e22ba3
+          stepCounter: 006c4667-bbe1-4dac-ae56-b3aff606712c
+        config: {}
+        dataType: VARCHAR(700)
+        description: ""
+        name: EMAIL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 113bad35-a695-435e-ae89-57bf6ab0c256
+                stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 10e2bd78-a24f-4f01-9d1d-fdbc288217f8
+          stepCounter: 006c4667-bbe1-4dac-ae56-b3aff606712c
+        config: {}
+        dataType: VARCHAR(900)
+        description: ""
+        name: PHONENO
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c56669d7-ef6e-49b0-b8b0-b8931ff90bbf
+                stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8710bd45-cdb2-42c2-b755-752ebef67426
+          stepCounter: 006c4667-bbe1-4dac-ae56-b3aff606712c
+        config: {}
+        dataType: VARCHAR(900)
+        description: ""
+        name: ALTERNATEPHONE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 29571fad-a997-4d32-aed9-73ea07a24b43
+                stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3a4baec9-06bb-4e19-9d51-75e4fb63eff8
+          stepCounter: 006c4667-bbe1-4dac-ae56-b3aff606712c
+        config: {}
+        dataType: VARCHAR(1000)
+        description: ""
+        name: ADDRESS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: dd84730c-e948-4f20-a0bd-50a29065dec8
+                stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d59b5118-0411-45c7-a2fe-f08c7bec2ad3
+          stepCounter: 006c4667-bbe1-4dac-ae56-b3aff606712c
+        config: {}
+        dataType: VARCHAR(700)
+        description: ""
+        name: COUNTY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4a1a38ec-1a79-476a-8c08-16dba1b96109
+                stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 293d11c5-6456-4c0a-b2be-5a75c0f1feec
+          stepCounter: 006c4667-bbe1-4dac-ae56-b3aff606712c
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: POSTALCODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0c4e148d-82de-40f0-b316-d7033c31db70
+                stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          CONTACTS: 4c0df815-96be-4961-8ef5-f84aaafe190a
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: SRC
+            nodeName: CONTACTS
+        join:
+          joinCondition: FROM {{ ref('SRC', 'CONTACTS') }} "CONTACTS"
+        name: STG_CONTACTS
+        noLinkRefs: []
+  name: STG_CONTACTS
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node
