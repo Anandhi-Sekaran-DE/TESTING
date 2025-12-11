@@ -1,0 +1,206 @@
+fileVersion: 1
+id: 4c0df815-96be-4961-8ef5-f84aaafe190a
+name: CONTACTS
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f52e5c4a-dddd-44a3-9743-4d16aa915883
+          stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: CONTACT_ID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e8ff505c-31ea-4c91-8084-3982d28b728b
+          stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: FIRST_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9619356b-299d-4c27-935e-01a506f27b05
+          stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: LAST_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ccd3cbd8-eabe-458e-954f-7ae9f8009f40
+          stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+        config: {}
+        dataType: VARCHAR(450)
+        defaultValue: ""
+        description: ""
+        name: ORGANISATION
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 113bad35-a695-435e-ae89-57bf6ab0c256
+          stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+        config: {}
+        dataType: VARCHAR(700)
+        defaultValue: ""
+        description: ""
+        name: EMAIL
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c56669d7-ef6e-49b0-b8b0-b8931ff90bbf
+          stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+        config: {}
+        dataType: VARCHAR(900)
+        defaultValue: ""
+        description: ""
+        name: PHONENO
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 29571fad-a997-4d32-aed9-73ea07a24b43
+          stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+        config: {}
+        dataType: VARCHAR(900)
+        defaultValue: ""
+        description: ""
+        name: ALTERNATEPHONE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: dd84730c-e948-4f20-a0bd-50a29065dec8
+          stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+        config: {}
+        dataType: VARCHAR(1000)
+        defaultValue: ""
+        description: ""
+        name: ADDRESS
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4a1a38ec-1a79-476a-8c08-16dba1b96109
+          stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+        config: {}
+        dataType: VARCHAR(700)
+        defaultValue: ""
+        description: ""
+        name: COUNTY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0c4e148d-82de-40f0-b316-d7033c31db70
+          stepCounter: 4c0df815-96be-4961-8ef5-f84aaafe190a
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: POSTALCODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: CONTACTS
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
